@@ -353,7 +353,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
+
 
       const nameInput = document.getElementById('contact-name');
       const emailInput = document.getElementById('contact-email');
